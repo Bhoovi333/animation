@@ -1,0 +1,50 @@
+.ingi{
+    height: 400px;width:400px;
+    border: 2px solid brown;border-radius: 50%;
+
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+  }
+  
+  @keyframes mymove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }h1{
+    padding: 20px 20px 10px 40px;margin: 20px 10px 10px 40px;
+  }
+ h3{
+    padding-left: 40px;margin-left: 40px;
+ }
+
+ /*fun*/
+ .ingi2{
+    height: 400px;width:400px;
+    border: 2px solid rgb(25, 9, 120);border-radius: 50%;
+
+    animation-name : mymmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+  }
+  
+  @keyframes mymmove {
+    from {transform: translateZ(400px);}
+    to {transform: translateY(-130px);}
+  }
+
+  .ingi3{
+    height: 400px;width:400px;
+    border: 2px solid rgb(4, 77, 27);border-radius: 50%;
+
+    animation-name : myyymmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+  }
+  
+  @keyframes myyymmove {
+    from {transform: translateX(0px);}
+    to {transform: translateX(50px);}
+  }
